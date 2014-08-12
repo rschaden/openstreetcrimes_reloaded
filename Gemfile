@@ -4,8 +4,9 @@ ruby '2.1.2'
 
 gem 'rails', '4.1.4'
 
-gem 'sqlite3'
-gem 'mongoid'
+gem 'pg'
+gem 'rgeo'
+gem 'activerecord-postgis-adapter'
 
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
